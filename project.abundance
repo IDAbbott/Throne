@@ -109,8 +109,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5307443365695793,
-      "y": 0.3670886075949367,
+      "x": 0.5283171521035599,
+      "y": 0.34810126582278483,
       "uniqueID": "id-26",
       "ioValues": [
         {
@@ -165,7 +165,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 592
+          "ioValue": 600
         },
         {
           "name": "y length",
@@ -215,8 +215,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3932038834951456,
-      "y": 0.4767932489451477,
+      "x": 0.38673139158576053,
+      "y": 0.4725738396624473,
       "uniqueID": "id-51",
       "ioValues": [
         {
@@ -233,7 +233,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 292
+          "ioValue": 300
         }
       ]
     },
@@ -271,11 +271,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 592
+          "ioValue": 600
         },
         {
           "name": "y length",
-          "ioValue": 24
+          "ioValue": 30
         }
       ]
     },
@@ -340,7 +340,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 176
+          "ioValue": -174
         },
         {
           "name": "yDist",
