@@ -26,7 +26,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 400
+          "ioValue": 380
         },
         {
           "name": "y length",
@@ -109,8 +109,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5355987055016181,
-      "y": 0.38185654008438813,
+      "x": 0.5315533980582524,
+      "y": 0.3691983122362869,
       "uniqueID": "id-26",
       "ioValues": [
         {
@@ -159,17 +159,17 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.09142394822006472,
+      "x": 0.08656957928802589,
       "y": 0.5063291139240506,
       "uniqueID": "id-37",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 584
+          "ioValue": 600
         },
         {
           "name": "y length",
-          "ioValue": 400
+          "ioValue": 384
         }
       ]
     },
@@ -215,8 +215,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.39724919093851135,
-      "y": 0.48945147679324896,
+      "x": 0.3932038834951456,
+      "y": 0.4767932489451477,
       "uniqueID": "id-51",
       "ioValues": [
         {
@@ -229,8 +229,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -8,
-          "currentEquation": "-8"
+          "ioValue": 0
         },
         {
           "name": "zDist",
@@ -240,8 +239,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3309061488673139,
-      "y": 0.16877637130801687,
+      "x": 0.3454692556634304,
+      "y": 0.1751054852320675,
       "uniqueID": "id-58",
       "ioValues": [
         {
@@ -250,7 +249,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 20
         },
         {
           "name": "yDist",
@@ -259,7 +258,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 600
+          "ioValue": 600,
+          "currentEquation": "600"
         }
       ]
     },
@@ -275,7 +275,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 20
+          "ioValue": 24
         }
       ]
     },
