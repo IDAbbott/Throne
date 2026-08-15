@@ -26,7 +26,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 380
+          "ioValue": 400
         },
         {
           "name": "y length",
@@ -109,8 +109,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5315533980582524,
-      "y": 0.3691983122362869,
+      "x": 0.5307443365695793,
+      "y": 0.3670886075949367,
       "uniqueID": "id-26",
       "ioValues": [
         {
@@ -165,7 +165,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 600
+          "ioValue": 592
         },
         {
           "name": "y length",
@@ -225,7 +225,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 200
+          "ioValue": 192
         },
         {
           "name": "yDist",
@@ -233,7 +233,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 300
+          "ioValue": 292
         }
       ]
     },
@@ -249,7 +249,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 20
+          "ioValue": 0
         },
         {
           "name": "yDist",
@@ -340,7 +340,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": -180
+          "ioValue": 176
         },
         {
           "name": "yDist",
