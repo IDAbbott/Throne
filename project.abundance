@@ -84,8 +84,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.2922330097087379,
-      "y": 0.6118143459915613,
+      "x": 0.2928802588996764,
+      "y": 0.6054852320675106,
       "uniqueID": "id-20",
       "ioValues": [
         {
@@ -98,11 +98,138 @@
         },
         {
           "name": "y-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "090"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.5275080906148868,
+      "y": 0.3924050632911392,
+      "uniqueID": "id-26",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3745954692556634,
+      "y": 0.4852320675105485,
+      "uniqueID": "id-31",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -200,
+          "currentEquation": "-200"
+        },
+        {
+          "name": "yDist",
           "ioValue": 0,
           "currentEquation": "0"
         },
         {
+          "name": "zDist",
+          "ioValue": 100
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.09304207119741101,
+      "y": 0.7827004219409283,
+      "uniqueID": "id-37",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 600,
+          "currentEquation": "600"
+        },
+        {
+          "name": "y length",
+          "ioValue": 400
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.193042071197411,
+      "y": 0.7827004219409283,
+      "uniqueID": "id-41",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 8
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.293042071197411,
+      "y": 0.7827004219409283,
+      "uniqueID": "id-45",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 90
+        },
+        {
           "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.39304207119741097,
+      "y": 0.7827004219409283,
+      "uniqueID": "id-51",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
           "ioValue": 0
         }
       ]
@@ -115,6 +242,11 @@
       "ap2ID": "id-8"
     },
     {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-8",
+      "ap2ID": "id-26"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-12",
       "ap2ID": "id-16"
@@ -123,6 +255,36 @@
       "ap2Name": "geometry",
       "ap1ID": "id-16",
       "ap2ID": "id-20"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-20",
+      "ap2ID": "id-31"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-31",
+      "ap2ID": "id-26"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-37",
+      "ap2ID": "id-41"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-41",
+      "ap2ID": "id-45"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-45",
+      "ap2ID": "id-51"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-51",
+      "ap2ID": "id-26"
     }
   ],
   "unitsKey": "MM",
