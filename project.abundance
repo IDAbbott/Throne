@@ -109,8 +109,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5339805825242718,
-      "y": 0.38396624472573837,
+      "x": 0.5347896440129449,
+      "y": 0.37763713080168776,
       "uniqueID": "id-26",
       "ioValues": [
         {
@@ -340,15 +340,15 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": -192
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 200
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 300
         }
       ]
     },
