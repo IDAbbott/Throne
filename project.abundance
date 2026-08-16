@@ -2802,11 +2802,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": -502
+              "ioValue": -502,
+              "currentEquation": "-502"
             },
             {
               "name": "yDist",
-              "ioValue": 400
+              "ioValue": 202
             },
             {
               "name": "zDist",
@@ -3180,7 +3181,7 @@
         {
           "atomType": "Gcode",
           "x": 0.826051779935275,
-          "y": 0.21308016877637131,
+          "y": 0.20042194092827004,
           "uniqueID": "id-631",
           "ioValues": [
             {
@@ -3214,14 +3215,10 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.6601941747572816,
-          "y": 0.36075949367088606,
+          "x": 0.6618122977346278,
+          "y": 0.3691983122362869,
           "uniqueID": "id-917",
           "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            },
             {
               "name": "Shape 2",
               "ioValue": null
@@ -3314,11 +3311,6 @@
           "ap2ID": "id-509"
         },
         {
-          "ap2Name": "geometry",
-          "ap1ID": "id-508",
-          "ap2ID": "id-1199"
-        },
-        {
           "ap2Name": "Shape 3",
           "ap1ID": "id-509",
           "ap2ID": "id-917"
@@ -3389,11 +3381,6 @@
           "ap2ID": "id-590"
         },
         {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-590",
-          "ap2ID": "id-917"
-        },
-        {
           "ap2Name": "geometry",
           "ap1ID": "id-617",
           "ap2ID": "id-513"
@@ -3423,7 +3410,11 @@
           "ap1ID": "id-917",
           "ap2ID": "id-630"
         },
-        null
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1195",
+          "ap2ID": "id-1199"
+        }
       ],
       "fileTypeVersion": 1
     }
