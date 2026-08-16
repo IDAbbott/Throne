@@ -1426,8 +1426,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.37216828478964403,
-          "y": 0.2510548523206751,
+          "x": 0.3729773462783172,
+          "y": 0.2468354430379747,
           "uniqueID": "id-509",
           "ioValues": [
             {
@@ -1468,8 +1468,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.2855987055016181,
-          "y": 0.3628691983122363,
+          "x": 0.28802588996763756,
+          "y": 0.35654008438818563,
           "uniqueID": "id-511",
           "ioValues": [
             {
@@ -1478,12 +1478,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 500
+              "ioValue": -904,
+              "currentEquation": "-904"
             },
             {
               "name": "yDist",
-              "ioValue": 400,
-              "currentEquation": "400"
+              "ioValue": -352
             },
             {
               "name": "zDist",
@@ -1510,8 +1510,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.37783171521035597,
-          "y": 0.46413502109704635,
+          "x": 0.3745954692556634,
+          "y": 0.45569620253164556,
           "uniqueID": "id-513",
           "ioValues": [
             {
@@ -1590,8 +1590,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.279126213592233,
-          "y": 0.751054852320675,
+          "x": 0.2686084142394822,
+          "y": 0.7278481012658228,
           "uniqueID": "id-517",
           "ioValues": [
             {
@@ -1600,12 +1600,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": -900,
-              "currentEquation": "-900"
+              "ioValue": -300
             },
             {
               "name": "yDist",
-              "ioValue": -320
+              "ioValue": 25,
+              "currentEquation": "25"
             },
             {
               "name": "zDist",
@@ -1642,12 +1642,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": -900,
-              "currentEquation": "-900"
+              "ioValue": -904
             },
             {
               "name": "yDist",
-              "ioValue": 25
+              "ioValue": 25,
+              "currentEquation": "25"
             },
             {
               "name": "zDist",
@@ -1674,8 +1674,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.3640776699029126,
-          "y": 0.6835443037974683,
+          "x": 0.34870550161812297,
+          "y": 0.6455696202531646,
           "uniqueID": "id-521",
           "ioValues": [
             {
@@ -1684,12 +1684,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 950,
-              "currentEquation": "950"
+              "ioValue": -600
             },
             {
               "name": "yDist",
-              "ioValue": 400
+              "ioValue": -352,
+              "currentEquation": "-352"
             },
             {
               "name": "zDist",
