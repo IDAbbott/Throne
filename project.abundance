@@ -109,8 +109,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5307443365695793,
-      "y": 0.3080168776371308,
+      "x": 0.7637540453074433,
+      "y": 0.27637130801687765,
       "uniqueID": "id-26",
       "ioValues": [
         {
@@ -516,11 +516,12 @@
         },
         {
           "name": "xDist",
-          "ioValue": -160
+          "ioValue": -160,
+          "currentEquation": "-160"
         },
         {
           "name": "yDist",
-          "ioValue": -208
+          "ioValue": -184
         },
         {
           "name": "zDist",
@@ -597,6 +598,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-20",
       "ap2ID": "id-31"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-26",
+      "ap2ID": "id-2"
     },
     {
       "ap2Name": "Shape 2",
