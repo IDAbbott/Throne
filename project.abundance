@@ -110,7 +110,7 @@
     {
       "atomType": "Assembly",
       "x": 0.5275080906148868,
-      "y": 0.3143459915611814,
+      "y": 0.30590717299578063,
       "uniqueID": "id-26",
       "ioValues": [
         {
@@ -282,8 +282,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.24029126213592233,
-      "y": 0.6814345991561181,
+      "x": 0.23462783171521034,
+      "y": 0.580168776371308,
       "uniqueID": "id-68",
       "ioValues": [
         {
@@ -331,8 +331,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.41423948220064727,
-      "y": 0.6476793248945147,
+      "x": 0.4223300970873786,
+      "y": 0.6582278481012659,
       "uniqueID": "id-80",
       "ioValues": [
         {
@@ -341,16 +341,17 @@
         },
         {
           "name": "xDist",
-          "ioValue": -150
+          "ioValue": -150,
+          "currentEquation": "-150"
         },
         {
           "name": "yDist",
-          "ioValue": 200,
-          "currentEquation": "200"
+          "ioValue": 208
         },
         {
           "name": "zDist",
-          "ioValue": 292
+          "ioValue": 292,
+          "currentEquation": "292"
         }
       ]
     },
@@ -424,6 +425,126 @@
       "x": 0.1448220064724919,
       "y": 0.7278481012658228,
       "uniqueID": "id-108",
+      "name": "RSideHingeSupport",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "RSideHingeSupport"
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.08090614886731393,
+      "y": 0.8312236286919832,
+      "uniqueID": "id-111",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 592
+        },
+        {
+          "name": "y length",
+          "ioValue": 70
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3398058252427184,
+      "y": 0.8523206751054853,
+      "uniqueID": "id-115",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 8
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.42071197411003236,
+      "y": 0.8291139240506329,
+      "uniqueID": "id-116",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 90
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 90
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.4723300970873786,
+      "y": 0.6082278481012658,
+      "uniqueID": "id-117",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -150
+        },
+        {
+          "name": "yDist",
+          "ioValue": 208
+        },
+        {
+          "name": "zDist",
+          "ioValue": 292
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.2184466019417476,
+      "y": 0.8417721518987341,
+      "uniqueID": "id-118",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 8
+        }
+      ]
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.11893203883495146,
+      "y": 0.9388185654008439,
+      "uniqueID": "id-119",
       "name": "RSideHingeSupport",
       "ioValues": [
         {
@@ -536,6 +657,31 @@
       "ap2Name": "geometry",
       "ap1ID": "id-87",
       "ap2ID": "id-68"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-111",
+      "ap2ID": "id-119"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-111",
+      "ap2ID": "id-118"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-115",
+      "ap2ID": "id-116"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-116",
+      "ap2ID": "id-117"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-118",
+      "ap2ID": "id-115"
     }
   ],
   "unitsKey": "MM",
