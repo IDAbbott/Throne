@@ -47,6 +47,10 @@
         {
           "name": "Shape 6",
           "ioValue": null
+        },
+        {
+          "name": "Shape 7",
+          "ioValue": null
         }
       ]
     },
@@ -810,7 +814,7 @@
       "x": 0.19336569579288027,
       "y": 0.7763713080168776,
       "uniqueID": "id-343",
-      "name": "RightSideHingeSupport",
+      "name": "RightSideSupport",
       "topLevel": false,
       "allAtoms": [
         {
@@ -833,11 +837,12 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 592
+              "ioValue": 592,
+              "currentEquation": "592"
             },
             {
               "name": "y length",
-              "ioValue": 80
+              "ioValue": 320
             }
           ]
         },
@@ -853,7 +858,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": -110
             },
             {
               "name": "yDist",
@@ -901,11 +906,13 @@
             },
             {
               "name": "xDist",
-              "ioValue": -148
+              "ioValue": -200,
+              "currentEquation": "-200"
             },
             {
               "name": "yDist",
-              "ioValue": 208
+              "ioValue": 208,
+              "currentEquation": "208"
             },
             {
               "name": "zDist",
@@ -961,10 +968,10 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.18608414239482202,
-      "y": 0.9029535864978904,
+      "x": 0.1901294498381877,
+      "y": 0.8924050632911392,
       "uniqueID": "id-375",
-      "name": "LeftSideHingeSupport",
+      "name": "LeftSideSupport",
       "topLevel": false,
       "allAtoms": [
         {
@@ -1148,6 +1155,11 @@
     {
       "ap2Name": "Shape 6",
       "ap1ID": "id-338",
+      "ap2ID": "id-26"
+    },
+    {
+      "ap2Name": "Shape 7",
+      "ap1ID": "id-343",
       "ap2ID": "id-26"
     }
   ],
