@@ -43,6 +43,10 @@
         {
           "name": "Shape 5",
           "ioValue": null
+        },
+        {
+          "name": "Shape 6",
+          "ioValue": null
         }
       ]
     },
@@ -51,7 +55,7 @@
       "x": 0.1699029126213592,
       "y": 0.1540084388185654,
       "uniqueID": "id-141",
-      "name": "Seat",
+      "name": "BackSeat",
       "topLevel": false,
       "allAtoms": [
         {
@@ -74,7 +78,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 400
+              "ioValue": 80
             },
             {
               "name": "y length",
@@ -110,7 +114,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": -170,
+              "currentEquation": "-170"
             },
             {
               "name": "yDist",
@@ -705,7 +710,7 @@
       "x": 0.1844660194174757,
       "y": 0.7848101265822784,
       "uniqueID": "id-338",
-      "name": "Seat",
+      "name": "FontSeat",
       "topLevel": false,
       "allAtoms": [
         {
@@ -728,7 +733,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 370
+              "ioValue": 320
             },
             {
               "name": "y length",
@@ -764,7 +769,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 60
             },
             {
               "name": "yDist",
@@ -826,6 +831,11 @@
     {
       "ap2Name": "Shape 5",
       "ap1ID": "id-282",
+      "ap2ID": "id-26"
+    },
+    {
+      "ap2Name": "Shape 6",
+      "ap1ID": "id-338",
       "ap2ID": "id-26"
     }
   ],
