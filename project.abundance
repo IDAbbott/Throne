@@ -3190,11 +3190,12 @@
             },
             {
               "name": "Tool Size",
-              "ioValue": 6.35
+              "ioValue": 2
             },
             {
               "name": "Passes",
-              "ioValue": 1
+              "ioValue": 1,
+              "currentEquation": "1"
             },
             {
               "name": "Speed",
