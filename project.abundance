@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7686084142394821,
-      "y": 0.2869198312236287,
+      "x": 0.7750809061488674,
+      "y": 0.2721518987341772,
       "uniqueID": "id-26",
       "ioValues": [
         {
@@ -78,7 +78,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 80
+              "ioValue": 90
             },
             {
               "name": "y length",
@@ -104,8 +104,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.4045307443365696,
-          "y": 0.3987341772151899,
+          "x": 0.4110032362459547,
+          "y": 0.41139240506329117,
           "uniqueID": "id-148",
           "ioValues": [
             {
@@ -114,12 +114,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": -170,
-              "currentEquation": "-170"
+              "ioValue": -150
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
@@ -399,8 +399,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.09951456310679611,
-      "y": 0.5232067510548523,
+      "x": 0.10679611650485438,
+      "y": 0.5210970464135022,
       "uniqueID": "id-226",
       "name": "RightSideHingeSupport",
       "topLevel": false,
@@ -419,8 +419,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.11067961165048544,
-          "y": 0.5069620253164556,
+          "x": 0.10841423948220064,
+          "y": 0.5210970464135022,
           "uniqueID": "id-256",
           "ioValues": [
             {
@@ -493,7 +493,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": -150
+              "ioValue": -148,
+              "currentEquation": "-148"
             },
             {
               "name": "yDist",
@@ -637,8 +638,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.5297734627831716,
-          "y": 0.6293248945147679,
+          "x": 0.5258899676375405,
+          "y": 0.6286919831223629,
           "uniqueID": "id-315",
           "ioValues": [
             {
@@ -647,11 +648,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": -160
+              "ioValue": -158
             },
             {
               "name": "yDist",
-              "ioValue": -184
+              "ioValue": -184,
+              "currentEquation": "-184"
             },
             {
               "name": "zDist",
@@ -728,7 +730,7 @@
         {
           "atomType": "Rectangle",
           "x": 0.0703883495145631,
-          "y": 0.3691983122362869,
+          "y": 0.35654008438818563,
           "uniqueID": "id-340",
           "ioValues": [
             {
