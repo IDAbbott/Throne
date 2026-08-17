@@ -1809,12 +1809,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": -908
+              "ioValue": -1008
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": -100,
+              "currentEquation": "-100"
             },
             {
               "name": "zDist",
@@ -1865,8 +1865,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.08188585607940446,
-          "y": 0.39451476793248946,
+          "x": 0.07526881720430108,
+          "y": 0.3881856540084388,
           "uniqueID": "id-514",
           "ioValues": [
             {
@@ -1892,11 +1892,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 120
+              "ioValue": -615
             },
             {
               "name": "yDist",
-              "ioValue": -103
+              "ioValue": -103,
+              "currentEquation": "-103"
             },
             {
               "name": "zDist",
@@ -2022,7 +2023,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": -400
+              "ioValue": -400,
+              "currentEquation": "-400"
             },
             {
               "name": "zDist",
@@ -2103,7 +2105,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 90
+              "ioValue": 0
             }
           ]
         },
@@ -2396,8 +2398,8 @@
         },
         {
           "atomType": "Tag",
-          "x": 0.23490488006617039,
-          "y": 0.5738396624472574,
+          "x": 0.2249793217535153,
+          "y": 0.6181434599156118,
           "uniqueID": "id-1781",
           "name": "LeftSupport",
           "ioValues": [
