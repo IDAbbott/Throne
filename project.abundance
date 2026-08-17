@@ -1772,7 +1772,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -11
+              "ioValue": -103
             },
             {
               "name": "zDist",
@@ -1850,12 +1850,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 15
+              "ioValue": -10
             },
             {
               "name": "yDist",
-              "ioValue": -100,
-              "currentEquation": "-100"
+              "ioValue": -103,
+              "currentEquation": "-103"
             },
             {
               "name": "zDist",
@@ -1933,7 +1933,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 400
+              "ioValue": 200
             },
             {
               "name": "yDist",
@@ -1949,8 +1949,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.0827129859387924,
-          "y": 0.8860759493670887,
+          "x": 0.08850289495450786,
+          "y": 0.8839662447257385,
           "uniqueID": "id-518",
           "ioValues": [
             {
@@ -1976,7 +1976,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -20
+              "ioValue": 50
             },
             {
               "name": "yDist",
