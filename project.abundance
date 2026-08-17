@@ -1934,11 +1934,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": -298
+              "ioValue": 400
             },
             {
               "name": "yDist",
-              "ioValue": 34
+              "ioValue": -100,
+              "currentEquation": "-100"
             },
             {
               "name": "zDist",
@@ -1976,12 +1977,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": -298,
-              "currentEquation": "-298"
+              "ioValue": -30
             },
             {
               "name": "yDist",
-              "ioValue": -298
+              "ioValue": -100,
+              "currentEquation": "-100"
             },
             {
               "name": "zDist",
@@ -2019,12 +2020,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": -445
+              "ioValue": -230
             },
             {
               "name": "yDist",
-              "ioValue": -400,
-              "currentEquation": "-400"
+              "ioValue": -100,
+              "currentEquation": "-100"
             },
             {
               "name": "zDist",
@@ -2232,8 +2233,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.6650124069478908,
-          "y": 0.41350210970464135,
+          "x": 0.6608767576509512,
+          "y": 0.40717299578059074,
           "uniqueID": "id-1752",
           "ioValues": [
             {
