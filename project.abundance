@@ -1741,8 +1741,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.08105872622001654,
-          "y": 0.6751054852320675,
+          "x": 0.0827129859387924,
+          "y": 0.5168776371308017,
           "uniqueID": "id-506",
           "ioValues": [
             {
@@ -1758,8 +1758,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.348221670802316,
-          "y": 0.6940928270042195,
+          "x": 0.3374689826302729,
+          "y": 0.510548523206751,
           "uniqueID": "id-507",
           "ioValues": [
             {
@@ -1834,8 +1834,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 30,
-              "currentEquation": "30"
+              "ioValue": 392
             }
           ]
         },
@@ -1907,8 +1906,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.06865177832919768,
-          "y": 0.8565400843881856,
+          "x": 0.08850289495450786,
+          "y": 0.7721518987341771,
           "uniqueID": "id-516",
           "ioValues": [
             {
@@ -1924,8 +1923,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.40612076095947064,
-          "y": 0.8481012658227848,
+          "x": 0.42100909842845324,
+          "y": 0.7236286919831224,
           "uniqueID": "id-517",
           "ioValues": [
             {
@@ -1949,8 +1948,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.08684863523573201,
-          "y": 0.9662447257383966,
+          "x": 0.0827129859387924,
+          "y": 0.8860759493670887,
           "uniqueID": "id-518",
           "ioValues": [
             {
@@ -1966,8 +1965,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.40612076095947064,
-          "y": 0.9556962025316456,
+          "x": 0.41935483870967744,
+          "y": 0.8860759493670887,
           "uniqueID": "id-519",
           "ioValues": [
             {
@@ -1992,25 +1991,25 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.5624483043837882,
-          "y": 0.8945147679324894,
+          "x": 0.08933002481389578,
+          "y": 0.6413502109704642,
           "uniqueID": "id-520",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 370
+              "ioValue": 380,
+              "currentEquation": "380"
             },
             {
               "name": "y length",
-              "ioValue": 400,
-              "currentEquation": "400"
+              "ioValue": 592
             }
           ]
         },
         {
           "atomType": "Move",
-          "x": 0.6989247311827956,
-          "y": 0.9113924050632911,
+          "x": 0.34987593052109184,
+          "y": 0.6160337552742616,
           "uniqueID": "id-521",
           "ioValues": [
             {
@@ -2254,13 +2253,29 @@
             {
               "name": "Shape 5",
               "ioValue": null
+            },
+            {
+              "name": "Shape 6",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 7",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 8",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 9",
+              "ioValue": null
             }
           ]
         },
         {
           "atomType": "Rotate",
-          "x": 0.3217535153019024,
-          "y": 0.8628691983122364,
+          "x": 0.32671629445822997,
+          "y": 0.7426160337552742,
           "uniqueID": "id-1758",
           "ioValues": [
             {
@@ -2285,10 +2300,10 @@
         },
         {
           "atomType": "Tag",
-          "x": 0.17369727047146402,
-          "y": 0.6814345991561181,
+          "x": 0.1695616211745244,
+          "y": 0.5168776371308017,
           "uniqueID": "id-1759",
-          "name": "LeftSupport",
+          "name": "LeftHingeSupport",
           "ioValues": [
             {
               "name": "geometry",
@@ -2296,7 +2311,7 @@
             }
           ],
           "tags": [
-            "LeftSupport"
+            "LeftHingeSupport"
           ]
         },
         {
@@ -2304,7 +2319,7 @@
           "x": 0.20843672456575682,
           "y": 0.2932489451476793,
           "uniqueID": "id-1762",
-          "name": "RightSupport",
+          "name": "RightHingeSupport",
           "ioValues": [
             {
               "name": "geometry",
@@ -2312,7 +2327,7 @@
             }
           ],
           "tags": [
-            "RightSupport"
+            "RightHingeSupport"
           ]
         },
         {
@@ -2333,8 +2348,8 @@
         },
         {
           "atomType": "Tag",
-          "x": 0.20926385442514472,
-          "y": 0.8565400843881856,
+          "x": 0.23076923076923078,
+          "y": 0.7320675105485233,
           "uniqueID": "id-1768",
           "name": "SeatFront",
           "ioValues": [
@@ -2349,8 +2364,8 @@
         },
         {
           "atomType": "Tag",
-          "x": 0.21257237386269642,
-          "y": 0.9746835443037974,
+          "x": 0.22828784119106701,
+          "y": 0.8924050632911392,
           "uniqueID": "id-1771",
           "name": "SeatBack",
           "ioValues": [
@@ -2362,6 +2377,38 @@
           "tags": [
             "SeatBack"
           ]
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.16377171215880892,
+          "y": 0.4029535864978903,
+          "uniqueID": "id-1774",
+          "name": "RightSupport",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            "RightSupport"
+          ]
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.23490488006617039,
+          "y": 0.5738396624472574,
+          "uniqueID": "id-1781",
+          "name": "LeftSupport",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            "LeftSupport"
+          ]
         }
       ],
       "allConnectors": [
@@ -2369,6 +2416,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-506",
           "ap2ID": "id-1759"
+        },
+        {
+          "ap2Name": "Shape 6",
+          "ap1ID": "id-507",
+          "ap2ID": "id-1752"
         },
         {
           "ap2Name": "geometry",
@@ -2393,7 +2445,7 @@
         {
           "ap2Name": "geometry",
           "ap1ID": "id-514",
-          "ap2ID": "id-624"
+          "ap2ID": "id-1774"
         },
         {
           "ap2Name": "Shape 5",
@@ -2406,14 +2458,29 @@
           "ap2ID": "id-1768"
         },
         {
+          "ap2Name": "Shape 8",
+          "ap1ID": "id-517",
+          "ap2ID": "id-1752"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-518",
           "ap2ID": "id-1771"
         },
         {
+          "ap2Name": "Shape 9",
+          "ap1ID": "id-519",
+          "ap2ID": "id-1752"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-520",
-          "ap2ID": "id-521"
+          "ap2ID": "id-1781"
+        },
+        {
+          "ap2Name": "Shape 7",
+          "ap1ID": "id-521",
+          "ap2ID": "id-1752"
         },
         {
           "ap2Name": "geometry",
@@ -2494,6 +2561,16 @@
           "ap2Name": "geometry",
           "ap1ID": "id-1771",
           "ap2ID": "id-519"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1774",
+          "ap2ID": "id-624"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1781",
+          "ap2ID": "id-521"
         }
       ],
       "fileTypeVersion": 1
