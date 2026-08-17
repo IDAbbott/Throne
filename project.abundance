@@ -2931,15 +2931,16 @@
             },
             {
               "name": "xDist",
-              "ioValue": -904
+              "ioValue": -298
             },
             {
               "name": "yDist",
-              "ioValue": 25
+              "ioValue": 34
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             }
           ]
         },
@@ -2961,8 +2962,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.3656957928802589,
-          "y": 0.869198312236287,
+          "x": 0.4069478908188585,
+          "y": 0.8818565400843882,
           "uniqueID": "id-519",
           "ioValues": [
             {
@@ -2971,11 +2972,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": -905
+              "ioValue": -298,
+              "currentEquation": "-298"
             },
             {
               "name": "yDist",
-              "ioValue": -320
+              "ioValue": -300
             },
             {
               "name": "zDist",
@@ -3238,6 +3240,14 @@
             {
               "name": "Shape 3",
               "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 5",
+              "ioValue": null
             }
           ]
         },
@@ -3263,7 +3273,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 90
+              "ioValue": 0
             }
           ]
         }
@@ -3305,9 +3315,19 @@
           "ap2ID": "id-1758"
         },
         {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-517",
+          "ap2ID": "id-1752"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-518",
           "ap2ID": "id-519"
+        },
+        {
+          "ap2Name": "Shape 5",
+          "ap1ID": "id-519",
+          "ap2ID": "id-1752"
         },
         {
           "ap2Name": "geometry",
