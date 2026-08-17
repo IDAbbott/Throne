@@ -2698,11 +2698,12 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 600
+              "ioValue": 592,
+              "currentEquation": "592"
             },
             {
               "name": "y length",
-              "ioValue": 392
+              "ioValue": 400
             }
           ]
         },
@@ -2718,7 +2719,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -900
+              "ioValue": -908
             },
             {
               "name": "yDist",
@@ -3135,8 +3136,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.6608767576509512,
-          "y": 0.4240506329113924,
+          "x": 0.6583953680727874,
+          "y": 0.4177215189873418,
           "uniqueID": "id-1752",
           "ioValues": [
             {
