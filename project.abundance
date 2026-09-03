@@ -206,8 +206,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.6436781609195402,
-          "y": 0.2938689217758985,
+          "x": 0.645320197044335,
+          "y": 0.2917547568710359,
           "uniqueID": "id-2197",
           "ioValues": [
             {
@@ -309,7 +309,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 240
+              "ioValue": 250
             },
             {
               "name": "yDist",
@@ -325,14 +325,14 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.0812807881773399,
-          "y": 0.37209302325581395,
+          "x": 0.08045977011494253,
+          "y": 0.3763213530655391,
           "uniqueID": "id-2636",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 415,
-              "currentEquation": "415"
+              "ioValue": 410,
+              "currentEquation": "410"
             },
             {
               "name": "y length",
@@ -368,8 +368,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 50,
-              "currentEquation": "50"
+              "ioValue": 60
             },
             {
               "name": "yDist",
@@ -1051,46 +1050,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.6484698097601324,
-      "y": 0.46413502109704635,
-      "uniqueID": "id-26",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 3",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 4",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 5",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 6",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 7",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 8",
-          "ioValue": null
-        }
-      ]
     },
     {
       "atomType": "Molecule",
@@ -3121,53 +3080,7 @@
       "fileTypeVersion": 1
     }
   ],
-  "allConnectors": [
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-26",
-      "ap2ID": "id-2"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-141",
-      "ap2ID": "id-26"
-    },
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-160",
-      "ap2ID": "id-26"
-    },
-    {
-      "ap2Name": "Shape 3",
-      "ap1ID": "id-202",
-      "ap2ID": "id-26"
-    },
-    {
-      "ap2Name": "Shape 4",
-      "ap1ID": "id-226",
-      "ap2ID": "id-26"
-    },
-    {
-      "ap2Name": "Shape 5",
-      "ap1ID": "id-282",
-      "ap2ID": "id-26"
-    },
-    {
-      "ap2Name": "Shape 6",
-      "ap1ID": "id-338",
-      "ap2ID": "id-26"
-    },
-    {
-      "ap2Name": "Shape 7",
-      "ap1ID": "id-343",
-      "ap2ID": "id-26"
-    },
-    {
-      "ap2Name": "Shape 8",
-      "ap1ID": "id-375",
-      "ap2ID": "id-26"
-    }
-  ],
+  "allConnectors": [],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
