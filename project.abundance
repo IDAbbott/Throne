@@ -431,6 +431,90 @@
           ]
         },
         {
+          "atomType": "Rectangle",
+          "x": 0.090311986863711,
+          "y": 0.6469344608879493,
+          "uniqueID": "id-2667",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 450,
+              "currentEquation": "450"
+            },
+            {
+              "name": "y length",
+              "ioValue": 40
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.190311986863711,
+          "y": 0.6469344608879493,
+          "uniqueID": "id-2671",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 8
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.290311986863711,
+          "y": 0.6469344608879493,
+          "uniqueID": "id-2675",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 90,
+              "currentEquation": "090"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 90
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.39031198686371105,
+          "y": 0.6469344608879493,
+          "uniqueID": "id-2681",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 225
+            }
+          ]
+        },
+        {
           "atomType": "Rotate",
           "x": 0.4178981937602627,
           "y": 0.06342494714587738,
@@ -570,6 +654,21 @@
           "ap2Name": "Shape 5",
           "ap1ID": "id-2654",
           "ap2ID": "id-2197"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2667",
+          "ap2ID": "id-2671"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2671",
+          "ap2ID": "id-2675"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2675",
+          "ap2ID": "id-2681"
         }
       ],
       "fileTypeVersion": 1
