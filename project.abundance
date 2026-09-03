@@ -206,8 +206,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.6494252873563219,
-          "y": 0.2854122621564482,
+          "x": 0.6436781609195402,
+          "y": 0.2938689217758985,
           "uniqueID": "id-2197",
           "ioValues": [
             {
@@ -331,11 +331,12 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 415
+              "ioValue": 415,
+              "currentEquation": "415"
             },
             {
               "name": "y length",
-              "ioValue": 450
+              "ioValue": 422
             }
           ]
         },
@@ -357,8 +358,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.4655172413793103,
-          "y": 0.4080338266384778,
+          "x": 0.44745484400656815,
+          "y": 0.41014799154334036,
           "uniqueID": "id-2638",
           "ioValues": [
             {
@@ -389,11 +390,12 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 40
+              "ioValue": 40,
+              "currentEquation": "40"
             },
             {
               "name": "y length",
-              "ioValue": 430
+              "ioValue": 422
             }
           ]
         },
