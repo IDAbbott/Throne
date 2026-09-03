@@ -2,7 +2,7 @@
 
 # Throne
 
-![](/project.svg)
+![](/project.png)
 
 
 
