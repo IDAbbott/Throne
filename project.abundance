@@ -170,11 +170,13 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
-              "ioValue": 750
+              "ioValue": 675,
+              "currentEquation": "675"
             }
           ]
         },
@@ -298,11 +300,12 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
-              "ioValue": 292
+              "ioValue": 225
             }
           ]
         },
@@ -361,7 +364,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 500
+              "ioValue": 450
             }
           ]
         },
@@ -405,11 +408,12 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
-              "ioValue": 300
+              "ioValue": 225
             }
           ]
         }
