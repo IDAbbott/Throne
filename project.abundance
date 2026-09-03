@@ -240,11 +240,12 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 450
+              "ioValue": 450,
+              "currentEquation": "450"
             },
             {
               "name": "y length",
-              "ioValue": 422
+              "ioValue": 430
             }
           ]
         },
@@ -322,8 +323,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 420,
-              "currentEquation": "420"
+              "ioValue": 415
             },
             {
               "name": "y length",
@@ -375,13 +375,13 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.08784893267651887,
-          "y": 0.48837209302325585,
+          "x": 0.08949096880131363,
+          "y": 0.4735729386892178,
           "uniqueID": "id-2652",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 30
+              "ioValue": 40
             },
             {
               "name": "y length",
