@@ -130,7 +130,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 600
+              "ioValue": 450
             },
             {
               "name": "y length",
@@ -157,7 +157,7 @@
         {
           "atomType": "Move",
           "x": 0.46715927750410513,
-          "y": 0.5179704016913319,
+          "y": 0.5200845665961945,
           "uniqueID": "id-2185",
           "ioValues": [
             {
@@ -166,7 +166,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -200
+              "ioValue": -225
             },
             {
               "name": "yDist",
@@ -175,15 +175,15 @@
             },
             {
               "name": "zDist",
-              "ioValue": 600,
-              "currentEquation": "600"
+              "ioValue": 900,
+              "currentEquation": "900"
             }
           ]
         },
         {
           "atomType": "Rotate",
           "x": 0.2922824302134647,
-          "y": 0.46723044397463004,
+          "y": 0.46511627906976744,
           "uniqueID": "id-2191",
           "ioValues": [
             {
@@ -192,11 +192,12 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0
+              "ioValue": 85
             },
             {
               "name": "z-axis degrees",
@@ -206,8 +207,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.416256157635468,
-          "y": 0.26215644820295986,
+          "x": 0.41461412151067323,
+          "y": 0.26004228329809725,
           "uniqueID": "id-404",
           "ioValues": [
             {
@@ -220,7 +221,7 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 90
+              "ioValue": 95
             },
             {
               "name": "z-axis degrees",
@@ -276,14 +277,14 @@
           "ap2ID": "id-405"
         },
         {
-          "ap2Name": "geometry",
-          "ap1ID": "id-404",
-          "ap2ID": "id-2185"
-        },
-        {
           "ap2Name": "number or geometry",
           "ap1ID": "id-405",
           "ap2ID": "id-162"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2191",
+          "ap2ID": "id-2185"
         }
       ],
       "fileTypeVersion": 1
