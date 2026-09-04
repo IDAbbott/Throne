@@ -22,8 +22,8 @@
       "allAtoms": [
         {
           "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
+          "x": 0.9746606334841629,
+          "y": 0.4926315789473684,
           "uniqueID": "id-162",
           "ioValues": [
             {
@@ -727,13 +727,13 @@
               "downwardFaceIndex": 3
             },
             {
-              "downwardFaceIndex": 5
+              "downwardFaceIndex": 10
             },
             {
               "downwardFaceIndex": 1
             },
             {
-              "downwardFaceIndex": 3
+              "downwardFaceIndex": 1
             },
             {
               "downwardFaceIndex": 4
@@ -752,36 +752,6 @@
             }
           ],
           "orientationsForHashed": 9
-        },
-        {
-          "atomType": "CutLayout",
-          "x": 0.9040723981900453,
-          "y": 0.7894736842105263,
-          "uniqueID": "id-2794",
-          "name": "Cut Layout",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "Sheet Width",
-              "ioValue": 2438
-            },
-            {
-              "name": "Sheet Height",
-              "ioValue": 1219
-            },
-            {
-              "name": "Part Padding",
-              "ioValue": 10
-            },
-            {
-              "name": "Orientations",
-              "ioValue": 12
-            }
-          ],
-          "placements": []
         },
         {
           "atomType": "Rotate",
@@ -858,11 +828,6 @@
           "ap2Name": "geometry",
           "ap1ID": "id-2191",
           "ap2ID": "id-2185"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-2197",
-          "ap2ID": "id-162"
         },
         {
           "ap2Name": "geometry",
@@ -1075,9 +1040,9 @@
           "ap2ID": "id-2690"
         },
         {
-          "ap2Name": "geometry",
+          "ap2Name": "number or geometry",
           "ap1ID": "id-2791",
-          "ap2ID": "id-2794"
+          "ap2ID": "id-162"
         }
       ],
       "fileTypeVersion": 1
@@ -1125,75 +1090,75 @@
       "placements": [
         [
           {
-            "id": 5,
+            "id": 7,
             "rotate": 330,
             "translate": {
-              "x": 307.45050048828125,
-              "y": 108.17034912109375
-            }
-          },
-          {
-            "id": 8,
-            "rotate": 120,
-            "translate": {
-              "x": -45.1252326965332,
-              "y": 31.15545654296875
+              "x": -1559.1778564453125,
+              "y": 1227.3690185546875
             }
           },
           {
             "id": 0,
             "rotate": 60,
             "translate": {
-              "x": 297.5016784667969,
-              "y": 447.3860778808594
-            }
-          },
-          {
-            "id": 2,
-            "rotate": 180,
-            "translate": {
-              "x": 662,
-              "y": 216.20001220703125
-            }
-          },
-          {
-            "id": 4,
-            "rotate": 150,
-            "translate": {
-              "x": 9.320343017578125,
-              "y": 668.4567260742188
-            }
-          },
-          {
-            "id": 7,
-            "rotate": 300,
-            "translate": {
-              "x": 183.03359985351562,
-              "y": 451.3195495605469
+              "x": 371.03802490234375,
+              "y": 509.6134338378906
             }
           },
           {
             "id": 1,
-            "rotate": 180,
+            "rotate": 270,
             "translate": {
-              "x": 320.20001220703125,
-              "y": 555.530029296875
+              "x": 554.3099975585938,
+              "y": 1223.97998046875
             }
           },
           {
             "id": 3,
+            "rotate": 0,
+            "translate": {
+              "x": -271.77001953125,
+              "y": 5.199999809265137
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 120,
+            "translate": {
+              "x": 1875.26806640625,
+              "y": 114.011962890625
+            }
+          },
+          {
+            "id": 4,
             "rotate": 300,
             "translate": {
-              "x": 782.8032836914062,
-              "y": 340.5750732421875
+              "x": -413.2080993652344,
+              "y": 1509.84716796875
+            }
+          },
+          {
+            "id": 8,
+            "rotate": 0,
+            "translate": {
+              "x": -881.369873046875,
+              "y": 365.04998779296875
             }
           },
           {
             "id": 6,
-            "rotate": 210,
+            "rotate": 30,
             "translate": {
-              "x": -241.1457977294922,
-              "y": 619.7367553710938
+              "x": 420.4677734375,
+              "y": -462.58807373046875
+            }
+          },
+          {
+            "id": 5,
+            "rotate": 60,
+            "translate": {
+              "x": 1517.4580078125,
+              "y": -783.4048461914062
             }
           }
         ]
