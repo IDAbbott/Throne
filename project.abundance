@@ -513,7 +513,7 @@
         {
           "atomType": "Move",
           "x": 0.4039408866995074,
-          "y": 0.5644820295983086,
+          "y": 0.5687103594080338,
           "uniqueID": "id-2681",
           "ioValues": [
             {
@@ -527,11 +527,11 @@
             },
             {
               "name": "yDist",
-              "ioValue": 220
+              "ioValue": 212
             },
             {
               "name": "zDist",
-              "ioValue": 450,
+              "ioValue": 430,
               "currentEquation": "450"
             }
           ]
@@ -610,12 +610,11 @@
             },
             {
               "name": "yDist",
-              "ioValue": -225,
-              "currentEquation": "-225"
+              "ioValue": -220
             },
             {
               "name": "zDist",
-              "ioValue": 459
+              "ioValue": 430
             }
           ]
         },
@@ -1083,7 +1082,16 @@
           "ap1ID": "id-2754",
           "ap2ID": "id-2654"
         },
-        null
+        {
+          "ap2Name": "zDist",
+          "ap1ID": "id-2754",
+          "ap2ID": "id-2681"
+        },
+        {
+          "ap2Name": "zDist",
+          "ap1ID": "id-2754",
+          "ap2ID": "id-2690"
+        }
       ],
       "fileTypeVersion": 1
     },
